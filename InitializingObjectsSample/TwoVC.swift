@@ -11,14 +11,18 @@ import UIKit
 
 class TwoVC: UIViewController {
     
+    var delegate: writeValueBackDelegate?
+    
+   
+    @IBOutlet weak var inputField: UITextField!
     var firstObject: Object!
     var secondObject: Object!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        inputField.text = secondObject.someValue
         
-        self.secondObject = Object()
     }
     
     override func didReceiveMemoryWarning() {
@@ -28,6 +32,8 @@ class TwoVC: UIViewController {
     
     @IBAction func textFieldDidChange(textField: UITextField) {
         secondObject.someValue = textField.text!
+        //save the value in the delegate
+        delegate?.writeValueBack(secondObject.someValue)
     }
     
     
