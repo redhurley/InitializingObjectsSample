@@ -105,6 +105,9 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="inputField" destination="Z02-JR-odL" id="SzH-S3-n8g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0uB-K2-FCk" sceneMemberID="firstResponder"/>
             </objects>

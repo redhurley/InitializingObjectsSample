@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1EB7F301C4849C800A75C78 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EB7F2F1C4849C800A75C78 /* Protocol.swift */; };
 		F81CB0E71C483716001B6B12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81CB0E61C483716001B6B12 /* AppDelegate.swift */; };
 		F81CB0EC1C483716001B6B12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F81CB0EA1C483716001B6B12 /* Main.storyboard */; };
 		F81CB0EE1C483716001B6B12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F81CB0ED1C483716001B6B12 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A1EB7F2F1C4849C800A75C78 /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
 		F81CB0E31C483716001B6B12 /* InitializingObjectsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InitializingObjectsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F81CB0E61C483716001B6B12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F81CB0EB1C483716001B6B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				F81CB0ED1C483716001B6B12 /* Assets.xcassets */,
 				F81CB0EF1C483716001B6B12 /* LaunchScreen.storyboard */,
 				F81CB0F21C483716001B6B12 /* Info.plist */,
+				A1EB7F2F1C4849C800A75C78 /* Protocol.swift */,
 			);
 			path = InitializingObjectsSample;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				F81CB11B1C483A53001B6B12 /* TwoVC.swift in Sources */,
 				F81CB1191C4839DD001B6B12 /* Object.swift in Sources */,
 				F81CB1171C48394F001B6B12 /* OneVC.swift in Sources */,
+				A1EB7F301C4849C800A75C78 /* Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +498,7 @@
 				F81CB10D1C483717001B6B12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F81CB10E1C483717001B6B12 /* Build configuration list for PBXNativeTarget "InitializingObjectsSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +507,7 @@
 				F81CB1101C483717001B6B12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F81CB1111C483717001B6B12 /* Build configuration list for PBXNativeTarget "InitializingObjectsSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +516,7 @@
 				F81CB1131C483717001B6B12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
